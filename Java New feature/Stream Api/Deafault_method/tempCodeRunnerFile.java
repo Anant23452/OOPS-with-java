@@ -1,4 +1,4 @@
-interface MyInterface  {
+public interface MyInterface  {
 void show(); // abstract method
     
 }
