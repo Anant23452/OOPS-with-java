@@ -1,0 +1,2 @@
+Base64 is way to convert  data(like text,image,file) into a formate that can be eaisily trasmitted over the interenet or stored into text based format
+In Base64 binary data is taken and convert into a string of ASCII character(which have readable character like letter and number);
