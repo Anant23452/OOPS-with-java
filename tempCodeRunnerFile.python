@@ -1,0 +1,22 @@
+# Step 1: Read numbers from Input.txt
+with open("Input.txt", "r") as infile:
+    numbers = infile.readlines()
+
+# Step 2: Separate odd and even numbers
+odd_numbers = []
+even_numbers = []
+
+for line in numbers:
+    num = int(line.strip())
+    if num % 2 == 0:
+        even_numbers.append(str(num))
+    else:
+        odd_numbers.append(str(num))
+
+# Step 3: Write even numbers to EVEN.txt
+with open("EVEN.txt", "w") as evenfile:
+    evenfile.write("\n".join(even_numbers))
+
+# Step 4: Write odd numbers to ODD.txt
+with open("ODD.txt", "w") as oddfile:
+    oddfile.write("\n".join(odd_numbers))

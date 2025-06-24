@@ -5,8 +5,12 @@ public class Base64Demo {
         String originalText = "Hello world";
         
         // Encoding text to base64
-        String encodedText = java.util.Base64.getEncoder().encodeToString(originalText.getBytes());
+        String encodedText = Base64.getEncoder().encodeToString(originalText.getBytes());
         System.out.println("Encoded text: " + encodedText);
+        // Decoding base64 back to text
+        byte[] decodeBytes = Base64.getDecoder().decode(encodedText);
+        String decodedText= new String(decodeBytes);
+        System.out.println("Decoded text-- " + decodedText);
     }
     
 }
