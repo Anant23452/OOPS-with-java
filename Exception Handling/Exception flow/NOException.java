@@ -3,7 +3,7 @@ package ExceptionHandling.ExceptionFlow;
 public class NOException {
   public static void main(String[] args){
       try{
-        System.out.println("This is a normal flow of excution without any erross");
+        System.out.println("This is a normal flow of execution without any errors");
     }
     catch(Exception e){
         System.out.println("This block will not execute because there are no errors");
