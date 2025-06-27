@@ -1,0 +1,2 @@
+In spring bean is just an object that is mangaged by spring containers.
+when we define class and annotate it will @componet @service or define in xml congi sprin tcreate it obj(bean) and mangage its lifecycle
