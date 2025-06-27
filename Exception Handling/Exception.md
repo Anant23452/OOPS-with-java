@@ -20,9 +20,59 @@ Excpeitn handling is a mechanism to hadnle runtime error such as class not foudn
 
 Typoe of exception
 - Checked Exception: These are the exceptions that are checked at compile-time. The compiler checks whether the exception is handled or not. If not handled, it gives a compile-time error. Examples include IOException, SQLException, etc.
+    These usually occur due to external issues like:
+
+        File not found
+
+        Network down
+
+        Database issues
+
+✅ Common Checked Exceptions:
+
+    IOException
+
+    SQLException
+
+    FileNotFoundException
+
+    ClassNotFoundException
 
 
 - Unchecked Exception: These are the exceptions that are not checked at compile-time. They are checked at runtime. Unchecked exceptions are subclasses of RuntimeException. Examples include NullPointerException, ArrayIndexOutOfBoundsException, etc.
+✅ Common Unchecked Exceptions:
+
+    NullPointerException
+
+    ArithmeticException
+
+    ArrayIndexOutOfBoundsException
+
+    IllegalArgumentException
+
+    NumberFormatException
+
+
 
 - Error IN JAVA 
 : These are serious problems that a reasonable application should not try to catch. Examples include OutOfMemoryError, StackOverflowError, etc. Errors are not exceptions and should not be caught.
+
+Excepton Flow 
+When an exception occurs, the normal flow of the program is disrupted. The Java Virtual Machine (JVM) looks for a suitable exception handler to handle the exception. If no handler is found, the program terminates.
+
+
+🚦 What is Control Flow in Exception Handling?
+
+It means:
+
+    "What lines will be executed and in what order, when an exception occurs or doesn't occur in a try-catch-finally block."
+
+🔰 Basic Syntax:
+
+try {
+    // risky code
+} catch (ExceptionType e) {
+    // handle exception
+} finally {
+    // always runs
+}
