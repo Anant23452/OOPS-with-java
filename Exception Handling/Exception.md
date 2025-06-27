@@ -15,3 +15,14 @@ An Exception occur due to:
 -arithmetic error
 
 Exception Handling
+Excpeitn handling is a mechanism to hadnle runtime error such as class not foudn eception , io exceptin, sql exceptin remote exeption, etc. The main purpose of exception handling is to maintain normal application flow.
+
+
+Typoe of exception
+- Checked Exception: These are the exceptions that are checked at compile-time. The compiler checks whether the exception is handled or not. If not handled, it gives a compile-time error. Examples include IOException, SQLException, etc.
+
+
+- Unchecked Exception: These are the exceptions that are not checked at compile-time. They are checked at runtime. Unchecked exceptions are subclasses of RuntimeException. Examples include NullPointerException, ArrayIndexOutOfBoundsException, etc.
+
+- Error IN JAVA 
+: These are serious problems that a reasonable application should not try to catch. Examples include OutOfMemoryError, StackOverflowError, etc. Errors are not exceptions and should not be caught.
