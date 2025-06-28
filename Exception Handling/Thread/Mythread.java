@@ -6,4 +6,6 @@ public class Mythread extends Thread {
         Mythread t1 = new Mythread();// Creating a thread
         t1.start(); // Starting the thread
     }
+    // run() contain code for thread 
+    //start()tell java to start thread
 }
