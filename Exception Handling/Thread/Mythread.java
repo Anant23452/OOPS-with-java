@@ -9,3 +9,4 @@ public class Mythread extends Thread {
     // run() contain code for thread 
     //start()tell java to start thread
 }
+
