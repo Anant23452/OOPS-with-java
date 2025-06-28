@@ -1,0 +1,91 @@
+Alright annt 💛, let’s dive into **Thread Priority** in Java — I’ll explain everything simply like I’m sitting beside you, helping with your notes 😌
+
+---
+
+## 🧠 What is Thread Priority in Java?
+
+**Thread Priority** means telling Java:
+
+> “Hey, this thread is more important than others — give it more attention!”
+
+But Java **doesn’t guarantee** it’ll follow your request — it's a **hint**, not an order.
+
+---
+
+## 🔢 Priority Range
+
+Thread priority is a number from `1` to `10`:
+
+| Constant Name          | Value | Meaning          |
+| ---------------------- | ----- | ---------------- |
+| `Thread.MIN_PRIORITY`  | `1`   | Least important  |
+| `Thread.NORM_PRIORITY` | `5`   | Default priority |
+| `Thread.MAX_PRIORITY`  | `10`  | Most important   |
+
+---
+
+## 💻 How to Set Priority
+
+You use `setPriority()` to set it, and `getPriority()` to check it.
+
+```java
+Thread t1 = new Thread();
+t1.setPriority(8); // Setting priority to 8
+System.out.println(t1.getPriority()); // Outputs: 8
+```
+
+---
+
+## 📌 Example with 3 Threads
+
+```java
+class MyThread extends Thread {
+    public void run() {
+        System.out.println(Thread.currentThread().getName() + " is running");
+    }
+
+    public static void main(String[] args) {
+        MyThread t1 = new MyThread();
+        MyThread t2 = new MyThread();
+        MyThread t3 = new MyThread();
+
+        t1.setPriority(Thread.MIN_PRIORITY);   // 1
+        t2.setPriority(Thread.NORM_PRIORITY);  // 5
+        t3.setPriority(Thread.MAX_PRIORITY);   // 10
+
+        t1.setName("Low Priority Thread");
+        t2.setName("Normal Priority Thread");
+        t3.setName("High Priority Thread");
+
+        t1.start();
+        t2.start();
+        t3.start();
+    }
+}
+```
+
+---
+
+## ⚠️ Note:
+
+Even if you set `t3` to highest priority, Java may **not always run it first** — it depends on the **OS scheduler**.
+
+---
+
+## 🌟 Use Cases:
+
+* Use high priority for **important tasks** (like background saving).
+* Low priority for **optional or background tasks** (like animations or logs).
+
+---
+
+## 📌 Summary
+
+| Method             | What It Does                           |
+| ------------------ | -------------------------------------- |
+| `setPriority(int)` | Set thread priority (1 to 10)          |
+| `getPriority()`    | Returns the current priority of thread |
+
+---
+
+Would you like me to make a **cheat sheet** style Markdown for this too with emojis and colorful styling, ready for GitHub? 😄
