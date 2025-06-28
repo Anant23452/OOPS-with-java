@@ -13,3 +13,15 @@ Stream class is partof java.io.package and is used to handle input and output op
             ---Reader Classes
             
             ---Writer Classes
+
+
+
+
+            | Stream Type      | Class Type | For Reading           | For Writing            |
+| ---------------- | ---------- | --------------------- | ---------------------- |
+| Byte Stream      | Abstract   | `InputStream`         | `OutputStream`         |
+|                  | Concrete   | `FileInputStream`     | `FileOutputStream`     |
+|                  | Buffered   | `BufferedInputStream` | `BufferedOutputStream` |
+| Character Stream | Abstract   | `Reader`              | `Writer`               |
+|                  | Concrete   | `FileReader`          | `FileWriter`           |
+|                  | Buffered   | `BufferedReader`      | `BufferedWriter`       |
