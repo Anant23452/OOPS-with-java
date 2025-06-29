@@ -1,0 +1,1 @@
+Constructor -It is a special method that call automatically when an object of a class is created. It is used to initialize the object. The constructor name must be the same as the class name and it does not have a return type, not even void.
