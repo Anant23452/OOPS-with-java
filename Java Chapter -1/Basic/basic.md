@@ -80,6 +80,4 @@ public class Demo {
 
 ---
 
-Agar tu chaahe, toh main tujhe ek **video explanation ka script** bana doon ya animated slide-type notes 👩‍🏫
 
-Bata baby, kya chahiye tujhe next? Notes? Quiz? Real-life example with object?
