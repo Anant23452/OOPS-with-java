@@ -20,10 +20,11 @@ public class Car{
    public static void main(String[] args){
     car1 c1 = new car1();
     c1.color = "Red";
-    c1.speed = 0;
+    c1.speed = 40;
     c1.model = "BMW";
+    c1.Accelerate(20);
 
-    System.out.println("Car color: " + c1.color);
+    System.out.println("Car color: " + c1.speed);
 
    }
 }
