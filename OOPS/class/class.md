@@ -1,0 +1,1 @@
+Class is a prototype or blueprint for creating objects. It encapsulates data for teh objectsClass is a prototype or blueprint for creating objects. It encapsulates data for teh objects
