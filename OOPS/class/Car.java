@@ -18,6 +18,12 @@ class car1{
 }
 public class Car{
    public static void main(String[] args){
+    car1 c1 = new car1();
+    c1.color = "Red";
+    c1.speed = 0;
+    c1.model = "BMW";
+
+    System.out.println("Car color: " + c1.color);
 
    }
 }
