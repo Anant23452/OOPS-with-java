@@ -7,11 +7,13 @@ class car1{
 
     //behaviors
     //creating methods
-    void Accelerate(){
+    void Accelerate(int increment){
         System.out.println("Accelerating");
+        speed += increment;
     }
-    void Break(){
+    void Break(int decrement){
         System.out.println("Breaking");
+        speed -= decrement;
     }
 }
 public class Car{
