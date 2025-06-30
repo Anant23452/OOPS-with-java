@@ -1,14 +1,16 @@
 
 class car1{
+    //properties
     String color;
     int speed;
     String model;
-    
-    void Accelerate(){
 
+    //behaviors
+    void Accelerate(){
+        System.out.println("Accelerating");
     }
     void Break(){
-
+        System.out.println("Breaking");
     }
 }
 public class Car{
