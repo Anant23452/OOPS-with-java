@@ -6,6 +6,7 @@ class car1{
     String model;
 
     //behaviors
+    //creating methods
     void Accelerate(){
         System.out.println("Accelerating");
     }
