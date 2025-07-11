@@ -7,6 +7,9 @@ class calculator{
     int add(int a, int b, int c){
         return a+b+c;
     }
+    int add(float a, float b){
+        return a+b;
+    }
 }
 
 public class overloading {
