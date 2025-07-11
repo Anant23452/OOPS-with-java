@@ -19,4 +19,7 @@ public static void main(String[] args){
         void speed(){
             System.out.println("Speed is 60km/h");
         }
+        int tue(int increment) {
+            return increment + 60; // returns the new speed after increment
+        }
     }
