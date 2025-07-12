@@ -1,8 +1,12 @@
-public class main{
-    class school{
-        static int a =5;
-    }
+public class main {
+    
+       
+            static void printName() {
+                System.out.println("anant");
+            
+        }
+    
     public static void main(String[] args) {
-        System.out.println(a);
+        printName();
     }
 }
