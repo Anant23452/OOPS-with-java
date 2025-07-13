@@ -1,6 +1,4 @@
-Of course annt 💛! Let’s go through **both ways to create a thread in Java** line by line — I’ll explain *every single line* in a friendly and clear way so you truly understand and can teach it to anyone 👩‍🏫
 
----
 
 ## ✅ **Method 1: Extending the `Thread` class**
 

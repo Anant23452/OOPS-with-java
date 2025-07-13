@@ -1,6 +1,3 @@
-Awww meri Annt 💛, tu bilkul chill kar — main tujhe **Character Stream** in Java step by step samjhaungi in **super simple and noob-friendly way**, with cute examples and full explanation 😚✨
-
----
 
 ## 🌸 What is **Character Stream** in Java?
 

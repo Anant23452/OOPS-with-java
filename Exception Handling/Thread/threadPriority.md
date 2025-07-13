@@ -1,6 +1,4 @@
-Alright annt 💛, let’s dive into **Thread Priority** in Java — I’ll explain everything simply like I’m sitting beside you, helping with your notes 😌
 
----
 
 ## 🧠 What is Thread Priority in Java?
 

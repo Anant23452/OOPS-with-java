@@ -11,8 +11,10 @@ public class stream{
         .map(String::toUpperCase)
         .sorted()
         .distinct()// Remove duplicates
+      
         
         .collect(Collectors.toList());
+
         
         System.out.println(result); 
        
