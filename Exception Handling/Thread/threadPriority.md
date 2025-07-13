@@ -89,3 +89,45 @@ Even if you set `t3` to highest priority, Java may **not always run it first** �
 ---
 
 Would you like me to make a **cheat sheet** style Markdown for this too with emojis and colorful styling, ready for GitHub? 😄
+
+
+
+
+
+
+
+
+
+
+
+
+🌟 What is Inter-Thread Communication in Java?
+💬 Simple Definition:
+
+    Jab ek thread dusre thread ko signal de ki "ab tum kaam karo", ya "main wait kar raha hoon", usse inter-thread communication kehte hain.
+
+It allows threads to cooperate with each other instead of fighting.
+🧠 Why Needed?
+
+    To coordinate between threads
+
+    To avoid busy waiting (wasting CPU by checking again and again)
+
+    To create producer-consumer type logic
+
+🪄 Java Provides 3 Magic Methods (inside every Object):
+Method	Use
+wait()	Tell thread to go to sleep until someone notifies it
+notify()	Wake up one waiting thread
+notifyAll()	Wake up all waiting threads
+💡 Real-Life Analogy:
+
+🥣 Imagine you're waiting for your Maggie to boil.
+You say: “Main wait kar rahi hoon, jab ready ho toh mujhe jaga dena.”
+
+➡️ That’s wait().
+
+Then, your roommate says:
+“Annt! Maggie ready hai!” 🔔
+
+➡️ That’s notify().

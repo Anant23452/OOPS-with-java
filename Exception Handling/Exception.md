@@ -1,25 +1,24 @@
 __Idea Behind Exception
----Exception is unwanted or unexpected event whch occure during the execution of a prograam i.e ata run time ,t ath dusrupts program the normal fowo f the progra's instruction 
+---Exception is an unwanted or unexpected event which occurs during the execution of a program (i.e. at run time), that disrupts the normal flow of the program's instructions.
 
---Exception can be caught and handle by thr program 
---When an exception occure , jave crate an object that represent error object call 'exception obj'-contain info about error it's type and where it happen in code
+--Exception can be caught and handled by the program.
+--When an exception occurs, Java creates an object that represents the error (called 'exception object')—it contains info about the error, its type, and where it happened in code.
 
-An Exception occur due to:
--ivalid user inpt 
--device falure
--loss of networok connection
--out of bound
+An Exception can occur due to:
+-invalid user input
+-device failure
+-loss of network connection
+-out of bounds
 -type mismatch
--openning an unawailable file
--database errr
+-opening an unavailable file
+-database error
 -arithmetic error
 
 Exception Handling
-Excpeitn handling is a mechanism to hadnle runtime error such as class not foudn eception , io exceptin, sql exceptin remote exeption, etc. The main purpose of exception handling is to maintain normal application flow.
+Exception handling is a mechanism to handle runtime errors such as ClassNotFoundException, IOException, SQLException, RemoteException, etc. The main purpose of exception handling is to maintain normal application flow.
 
-
-Typoe of exception
-- Checked Exception: These are the exceptions that are checked at compile-time. The compiler checks whether the exception is handled or not. If not handled, it gives a compile-time error. Examples include IOException, SQLException, etc.
+Types of exception
+- Checked Exception: These are exceptions that are checked at compile-time. The compiler checks whether the exception is handled or not. If not handled, it gives a compile-time error. Examples include IOException, SQLException, etc.
     These usually occur due to external issues like:
 
         File not found

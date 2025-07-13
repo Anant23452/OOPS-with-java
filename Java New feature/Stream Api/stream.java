@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
-
+//stream Api
 public class stream{
     public static void main(String[] args){
         System.out.println("Stream API Example");

@@ -10,7 +10,8 @@ public class SimpleLambdaDemo {
     public static void main(String[] args) {
 
         // 🌼 1. OLD WAY: Using Anonymous Class
-        Hello oldWay = new Hello() {
+        Hello oldWay = new Hello() 
+        {
             public void sayHello() {
                 System.out.println("👵 Old Way: Hello Annt from Anonymous Class!");
             }

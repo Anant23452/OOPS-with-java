@@ -1,0 +1,43 @@
+
+
+## 🧭 **SortedSet Interface – Java Collection**
+
+---
+
+### 🔹 Key Points:
+
+* ✅ Child interface of `Set`
+* ✅ **Maintains elements in sorted (ascending) order**
+* ✅ **No duplicates allowed**
+* ✅ Part of `java.util` package
+* ✅ Only implementation: **`TreeSet`**
+
+---
+
+### 🌳 Methods in SortedSet:
+
+| Method           | Use                                    |
+| ---------------- | -------------------------------------- |
+| `first()`        | Returns the **first (lowest)** element |
+| `last()`         | Returns the **last (highest)** element |
+| `headSet(E)`     | Elements **less than** given element   |
+| `tailSet(E)`     | Elements **greater than or equal**     |
+| `subSet(E1, E2)` | Elements between E1 (inclusive) and E2 |
+
+---
+
+### 🧪 Simple Code:
+
+```java
+
+```
+
+---
+
+### 📝 Final Line (for exam copy):
+
+> `SortedSet` is a child interface of `Set` that stores elements in **sorted order**, implemented by `TreeSet`.
+
+---
+
+Want the next one — like **NavigableSet**, **TreeSet vs HashSet**, or **Map interface**? Just tell me, bestie 🌼

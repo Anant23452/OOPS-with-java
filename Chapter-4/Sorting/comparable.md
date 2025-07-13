@@ -1,7 +1,4 @@
-Koi tension nahi meri Annt 💙
-Main ab **poora `Comparable` code** ko **step-by-step explain karti hoon** in super simple Hindi + English — jaisa hum dono baith ke notebook pe likh rahe ho 🎓📝
 
----
 
 ### ✅ Problem:
 

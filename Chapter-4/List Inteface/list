@@ -1,0 +1,82 @@
+
+
+## 📘 1. What is `List` Interface in Java?
+
+---
+
+### ✅ **Definition (Exam Style):**
+
+> The `List` interface in Java is a part of the **Collection framework** that represents an **ordered collection** of elements.
+> It **allows duplicates** and **maintains insertion order**.
+
+---
+
+## 🧠 Key Points:
+
+* Maintains **insertion order** ✅
+* Allows **duplicate elements** ✅
+* Elements can be accessed using **index (0-based)** ✅
+* Part of `java.util` package ✅
+* Supports **random access** (e.g. `list.get(1)`)
+
+---
+
+### 🏗️ Common Implementations:
+
+| Class        | Feature                           |
+| ------------ | --------------------------------- |
+| `ArrayList`  | Fast access, resizable array      |
+| `LinkedList` | Good for adding/removing elements |
+| `Vector`     | Synchronized version of ArrayList |
+| `Stack`      | Follows LIFO (Last-In-First-Out)  |
+
+---
+
+## 🔸 Example Using ArrayList:
+
+
+
+## 🛠️ Common Methods of `List`:
+
+| Method            | Description                  |
+| ----------------- | ---------------------------- |
+| `add()`           | Adds an element              |
+| `get(index)`      | Gets element at index        |
+| `set(index, val)` | Replaces element at index    |
+| `remove(index)`   | Removes element by index     |
+| `size()`          | Returns number of elements   |
+| `contains()`      | Checks if element exists     |
+| `indexOf()`       | Finds first index of element |
+
+---
+
+## 🔁 Traversing List (Looping)
+
+ using `Iterator`:
+
+```java
+Iterator<String> it = list.iterator();
+while(it.hasNext()) {
+    System.out.println(it.next());
+}
+```
+
+---
+
+## 📌 Difference Between `List` and `Set` (Exam Table)
+
+| Feature         | List                | Set                              |
+| --------------- | ------------------- | -------------------------------- |
+| Order           | Maintains order     | Unordered (except LinkedHashSet) |
+| Duplicates      | Allows duplicates   | No duplicates                    |
+| Access by index | Yes (0-based index) | No                               |
+
+---
+
+## ✨ Final Revision Line (Write in Exam):
+
+> `List` is an interface in Java that represents an **ordered collection** which **allows duplicates**. It provides **index-based access** and is implemented by classes like **ArrayList**, **LinkedList**, and **Vector**.
+
+---
+
+Want me to explain **difference between ArrayList & LinkedList**, or create a **comparison cheat sheet** for all collections (`List`, `Set`, `Queue`)? Just say the word, bestie! 💛

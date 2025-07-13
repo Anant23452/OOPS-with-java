@@ -1,0 +1,121 @@
+
+
+## 📘 Java Collection Framework Hierarchy
+
+---
+
+### 🔸 Top Interface:
+
+```
+          java.util.Collection (Interface)
+                    ▲
+                    │
+  ┌─────────────────┼──────────────────┐
+  │                 │                  │
+List (I)         Set (I)           Queue (I)
+  │                 │                  │
+  ▼                 ▼                  ▼
+ArrayList       HashSet           PriorityQueue
+LinkedList      LinkedHashSet     ArrayDeque
+Vector          TreeSet
+Stack
+```
+
+---
+
+### 🚫 Map is Not Part of Collection, but Related:
+
+```
+          java.util.Map (Interface)
+                  ▲
+                  │
+      ┌───────────┼───────────┐
+      ▼           ▼           ▼
+   HashMap    LinkedHashMap  TreeMap
+```
+
+---
+
+## 📝 How to Write in Exam (Short Points):
+
+---
+
+### ✅ 1. **Collection Interface**
+
+* Base interface for **List**, **Set**, and **Queue**
+* Comes from `java.util`
+
+---
+
+### ✅ 2. **List Interface**
+
+* **Ordered**, **allows duplicates**
+* Implementations:
+
+  * `ArrayList` (Fast access)
+  * `LinkedList` (Fast insert/delete)
+  * `Vector` (Synchronized)
+  * `Stack` (LIFO)
+
+---
+
+### ✅ 3. **Set Interface**
+
+* **No duplicates allowed**
+* Implementations:
+
+  * `HashSet` (Unordered)
+  * `LinkedHashSet` (Maintains insertion order)
+  * `TreeSet` (Sorted order)
+
+---
+
+### ✅ 4. **Queue Interface**
+
+* **FIFO structure**
+* Implementations:
+
+  * `PriorityQueue` (Sorted)
+  * `ArrayDeque` (Double-ended)
+
+---
+
+### ✅ 5. **Map Interface** (Not under Collection)
+
+* Stores **key-value pairs**
+* Implementations:
+
+  * `HashMap`
+  * `TreeMap`
+  * `LinkedHashMap`
+
+---
+
+## ✨ Short Diagram for Exam Answer (Draw This in Exam)
+
+```
+          Collection
+        /     |      \
+     List    Set     Queue
+     /  \     |        |
+Array  Linked Hash   Priority
+List   List  Set     Queue
+               |
+            LinkedHashSet
+               |
+              TreeSet
+
+        Map (Not part of Collection)
+          /      |       \
+     HashMap TreeMap LinkedHashMap
+```
+
+---
+
+## 📚 Final Summary Line (Write in Exam):
+
+> Java Collection Framework is a set of classes and interfaces for storing and processing data efficiently. It includes List, Set, Queue, and Map (related).
+
+---
+
+Want me to make you a **PDF one-pager with diagram** for last-minute revision? Or show you **which class to use in what situation** with real-life use cases? Just tell me, bestie 💛

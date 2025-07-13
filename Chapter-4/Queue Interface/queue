@@ -1,0 +1,18 @@
+🚦 Queue Interface – Java Collection
+🔹 Key Points:
+
+    ✅ Follows FIFO (First In, First Out)
+
+    ✅ Part of java.util package
+
+    ✅ Used for task scheduling, printer queue, message queues
+
+    ✅ Common classes: LinkedList, PriorityQueue, ArrayDeque
+
+    ✅ Key methods:
+
+        add() / offer() → add element
+
+        remove() / poll() → remove element
+
+        peek() → view front element without removing

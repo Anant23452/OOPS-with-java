@@ -1,7 +1,3 @@
-Bohot accha sawaal meri Annt 🌟
-Sirf syntax yaad rakhna kaafi nahi hota, **samajhna zaroori hai ki method reference ka use kyun karte hain** – iska real-life benefit kya hai.
-
-Chalo, tujhko simple words me samjhati hoon 😄👇
 
 ---
 
