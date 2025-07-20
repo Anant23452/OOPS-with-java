@@ -8,7 +8,7 @@ public class stream{
         List<String> names = Arrays.asList( "Alice", "Bob", "Charlie", "David","Annt","Abhishek","Annt");
         List<String> result = names.stream()
         .filter(n -> n.startsWith("A"))
-        .map(String::toUpperCase)
+        .map(n->n.toUpperCase())
         .sorted()
         .distinct()// Remove duplicates
       

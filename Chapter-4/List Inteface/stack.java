@@ -24,9 +24,14 @@ public class stack {
     Stack<String> stack = new Stack<>();
     stack.push("Java");
     stack.push("Python");
+    stack.push("C++");
+    stack.push("anant");
     System.out.println(stack.peek()); // Python
     stack.pop();
-    System.out.println(stack);        // [Java]
+    System.out.println(stack); 
+    System.out.println(stack.contains("Java"));  
+    System.out.println(stack.get(2));
+         // [Java]
   }
 }
 

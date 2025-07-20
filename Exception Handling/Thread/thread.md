@@ -1,6 +1,4 @@
-Alright annt 💛 let's break down **Java Threads** in a simple and clear way, starting from the basics. Think of this as your "explain like I’m 5" guide so you can teach anyone confidently 💡
 
----
 
 ### 💡 What is a Thread in Java?
 
